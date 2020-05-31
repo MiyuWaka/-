@@ -1,0 +1,126 @@
+<head>
+<meta http-equiv="Content-Type" content="text/css"; charset="Shift_JIS">
+<title>アンケート</title>
+<link href="page6.css" rel="stylesheet" type="text/css">
+<link href="menu_h.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+ul{list-style-type:circle;}
+-->
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+
+
+<div id="header">
+</div>
+
+
+<div id="navi">
+<div id="menu">
+<ul>
+<li><a href="A1678493.htm">TOP<BR>初期画面に戻る</a></li>
+<li><a href="https://churaumi.okinawa/">美ら海水族館<BR>公式ホームページ</a></li>
+<li><a href="http://www.nagoyaaqua.jp/">名古屋港水族館<BR>公式ホームページ</a></li>
+<li><a href="http://www.kamogawa-seaworld.jp/">鴨川シーワールド<BR>公式ホームページ</a></li>
+<li><a href="https://ise-seaparadise.com/">伊勢シーパラダイス<BR>公式ホームページ</a></li>
+<li><a href="http://www.kaiyukan.com/">海遊館<BR>公式ホームページ</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="content1">
+<hr align="center" width="200">
+<div align="center" id="clock">
+<span id="view_clock"></span>
+</div>
+<hr align="center" width="200">
+<script type="text/javascript">
+timerID = setInterval('clock()',500);
+
+function clock() {
+	document.getElementById("view_clock").innerHTML = getNow();
+}
+
+function getNow() {
+	var now = new Date();
+	var hour = now.getHours();
+	var min = now.getMinutes();
+	var sec = now.getSeconds();
+
+	var s =  hour + "時" + min + "分" + sec + "秒"; 
+	return s;
+}
+</script>
+
+<div id="menu2">
+<ul>
+<li id="n1"><a href="page1.htm"></a></li>
+<li id="n2"><a href="page2.htm"></a></li>
+<li id="n3"><a href="page3.htm"></a></li>
+<li id="n4"><a href="page4.htm"></a></li>
+<li id="n5"><a href="page5.htm"></a></li>
+<li id="n6"><a href="page6.htm"></a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="content2">
+<BR><BR>
+<ul>
+<form action="lct-c275@sophia.ac.jp" method="post">
+<fieldlist>
+<li><legend>名前(ニックネーム)</legend></li>
+<BR>
+<input type="text" name="name1" id="name1" value="名前を入力してください"
+size="60" maxlength="20">
+<br>
+<br>
+<p>
+<li>お住まいの地域</li><BR>
+<select name="地域">
+<option>北海道</option>
+<option>東北</option>
+<option selected>関東</option>
+<option>中部</option>
+<option>近畿</option>
+<option>中国</option>
+<option>四国</option>
+<option>九州</option>
+</select>
+</p>
+<BR>
+<BR>
+<li>行ったことのある水族館</li><BR>
+<input type="checkbox" name="su" id="r1">
+<label for="r1">美ら海水族館</label><BR>
+<input type="checkbox" name="su" id="r2">
+<label for="r2">名古屋港水族館</label><BR>
+<input type="checkbox" name="su" id="r3">
+<label for="r3">鴨川シーワールド</label><BR>
+<input type="checkbox" name="su" id="r4">
+<label for="r4">伊勢シーパラダイス</label><BR>
+<input type="checkbox" name="su" id="r5">
+<label for="r5">海遊館</label><BR>
+<br>
+<BR>
+<li>上記の水族館以外でおすすめの水族館</li><BR>
+<textarea name="osusume" id="osusume" rows="5">
+</textarea>
+<p><input type="reset"></p>
+<br>
+<input type="submit" name="submit" id="submit" value="送信">
+</fieldset>
+</form>
+
+<p>ご協力ありがとうございました。</p>
+</div>
+
+
+
+</div>
+</body>

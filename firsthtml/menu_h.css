@@ -1,0 +1,20 @@
+
+    BODY {background: #FFFFFF}
+    A:link {color: #80FF00}
+    A:visited {color: #FF00FF}
+    #menu ul{margin:0 0 0 2; padding:0; list-style:none;}
+    #menu li{display:inline; margin:0; padding:0; float:left;}
+    #menu li a{display:block; 
+   				 border:1px solid #ccc; 
+   				 background-color:lightcyan; 
+   				 margin:1px; 
+   				 color:#333; 
+   				 width:150px; 
+   				 padding:6px;
+   				 text-align:center;
+   				 font-size:14px;
+   				 }
+    #menu li a:hover{border:1px solid #fff;
+    				background-image:url(iruka.png);
+    				color:blue;
+    				} 

@@ -1,0 +1,77 @@
+#menu2 ul{
+margin: 0; 
+padding: 0; 
+list-style: none;
+}
+
+#menu2 li{ 
+display: inline; 
+padding: 0; 
+margin: 2 4 2 4; 
+float: left;
+}
+
+#menu2 li a{
+display: block; 
+border: 1px none;
+background-color: none;
+padding: 6px;
+color: #333;
+width: 180px;
+height: 70px; 
+margin: 1px;
+}
+
+#n1{
+background-image:url(menu1.png);
+background-size:195;}
+
+#n1 a:hover{
+background-color:none;
+background-image:url(menu1.png);
+background-size:195;}
+
+#n2{
+background-image:url(menu-2.png);
+background-size:195;}
+
+#n2 a:hover{
+background-color:none;
+background-image:url(menu2.png);
+background-size:195;}
+
+#n3{
+background-image:url(menu-3.png);
+background-size:195;}
+
+#n3 a:hover{
+background-color:none;
+background-image:url(menu3.png);
+background-size:195;}
+
+#n4{
+background-image:url(menu-4.png);
+background-size:195;}
+
+#n4 a:hover{
+background-color:none;
+background-image:url(menu4.png);
+background-size:195;}
+
+#n5{
+background-image:url(menu-5.png);
+background-size:195;}
+
+#n5 a:hover{
+background-color:none;
+background-image:url(menu5.png);
+background-size:195;}
+
+#n6{
+background-image:url(menu-6.png);
+background-size:195;}
+
+#n6 a:hover{
+background-color:none;
+background-image:url(menu6.png);
+background-size:195;}
